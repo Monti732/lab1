@@ -1,0 +1,142 @@
+## Игнорировать файлы сборки и компиляции
+[Bb]in/
+[Oo]bj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.ilk
+*.meta
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.idb
+*.pch
+
+## Игнорировать папки сборки, кроме bin\Release
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Bb]uild/
+bld/
+[Oo]bj/
+[Oo]utput/
+
+# Исключаем bin\Release — будем добавлять в Git
+!bin/Release/
+!bin/Release/**
+
+## Игнорировать файлы пакетов NuGet
+packages/
+*.nupkg
+NuGet.exe
+**/packages/*
+!**/packages/build/
+
+## Игнорировать временные файлы
+[Tt]humbs.db
+[Tt]emp/
+*.tmp
+*.temp
+*.log
+*.tlog
+
+## Игнорировать файлы Visual Studio
+.vs/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+
+## Игнорировать файлы ReSharper
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Игнорировать файлы Rider
+.idea/
+*.sln.iml
+
+## Игнорировать файлы мониторинга производительности
+*.psess
+*.vsp
+*.vspx
+
+## Игнорировать резервные копии и файлы преобразования
+*~
+*.bak
+*.swp
+
+## Игнорировать результаты тестирования
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+## Игнорировать файлы публикации
+publish/
+*.pubxml
+
+## Игнорировать файлы пакетов
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+## Игнорировать файлы запуска
+*.launchsettings.json
+
+## Игнорировать пользовательские настройки
+*.userprefs
+
+## Игнорировать файлы MacOS
+.DS_Store
+
+## Игнорировать файлы VS Code
+.vscode/
+
+## Игнорировать файлы Azure
+azure-pipelines.yml
+
+## Игнорировать файлы Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+## Игнорировать файлы Cake
+tools/
+!tools/packages.config
+
+## Игнорировать файлы MSTest
+*.VisualState.xml
+TestResults/
+
+## Игнорировать файлы NVidia Nsight
+.nsight-cgp*
+
+## Игнорировать файлы OpenCover
+opencover.xml
+
+## Игнорировать файлы производительности
+*.diagsession
+
+## Игнорировать файлы локальной истории
+.history/
+
+## Игнорировать файлы миграций Entity Framework (если используете)
+[Mm]igrations/*Designer.cs
+[Mm]igrations/*.resx
+[Mm]igrations/*.resources
+[Mm]igrations/*.json
+
+# Но не игнорировать сами файлы миграций
+![Mm]igrations/
+![Mm]igrations/*.cs
